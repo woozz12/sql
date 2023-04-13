@@ -97,6 +97,11 @@ SELECT * FROM employees
 WHERE salary >= 5000
 ORDER BY employee_id DESC;
 
+SELECT first_name, salary*12 AS pay
+FROM employees
+ORDER BY pay ASC;
+
+
 
 
 
